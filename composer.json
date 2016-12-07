@@ -1,0 +1,23 @@
+{
+    "name": "vanry/javascript-packer",
+    "description": "Pack javascript, developed from Dean Edwards' JavaScript Packer",
+    "keywords": ["javascript", "packer", "eval"],
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "homepage": "http://vanry.me",
+    "authors": [
+        {
+            "name": "vanry",
+            "email": "ivanry@163.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "JavascriptPacker\\": "src/"
+        }
+    }
+}
