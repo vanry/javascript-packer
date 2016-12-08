@@ -59,7 +59,7 @@ class JavascriptPacker
             $script = call_user_func(array(&$this, $this->parsers[$i]), $script);
         }
 
-        return $script;
+        return trim($script);
     }
     
     // add parser
